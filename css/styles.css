@@ -56,7 +56,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-}body {
+}
+
+body
 .contenido {
   display: flex;
   align-items: flex-start; /* alinea la imagen al inicio del texto */
@@ -261,4 +263,33 @@ menu a:hover::after {
 
 .menu a.activo::after {
   width: 100%;
+}
+
+footer {
+  background-color: #111;       /* Fondo oscuro elegante */
+  color: #ddd;                  /* Texto claro para contraste */
+  text-align: center;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  border-top: 2px solid #444;
+}
+ 
+footer p {
+  margin: 10px 0;
+}
+ 
+footer strong {
+  color: #fff;
+}
+ 
+footer a {
+  color: #1db954; /* Verde tipo Spotify (rock vibes) */
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+ 
+footer a:hover {
+  color: #fff;
 }
