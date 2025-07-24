@@ -3,9 +3,9 @@
 Bienvenidos al repositorio del proyecto **"El Sitio del Blog"**, realizado por el equipo conformado por:
 
 👥 **Integrantes:**
-- Karen (Página de Inicio, coordinación)
+- Karen, Juan (Página de Inicio, coordinación)
 - David (Contenido y apoyo visual)
-- Lina (Menú de navegación)
+- Carolina (Menú de navegación)
 - Samuel (Página de Contacto)
 - Diego (Pie de página y estructura)
 
@@ -29,12 +29,3 @@ Bienvenidos al repositorio del proyecto **"El Sitio del Blog"**, realizado por e
 
 ---
 
-## 🚀 Flujo de Trabajo en Equipo (Git/GitHub)
-
-### 🔃 1. Clonar el repositorio
-
-Solo se hace una vez:
-
-```bash
-git clone https://github.com/<usuario>/<repositorio>.git
-cd <repositorio>
