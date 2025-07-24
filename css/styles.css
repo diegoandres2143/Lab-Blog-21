@@ -1,3 +1,15 @@
+.contenido {
+  display: flex;
+  align-items: flex-start; /* alinea la imagen al inicio del texto */
+  gap: 20px; /* espacio entre texto e imagen */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+ 
+.texto {
+  flex: 1; /* toma el espacio disponible */
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
