@@ -56,4 +56,196 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #007B8A;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #007B8A;
+}
+
+.info-contacto p {
+  margin: 0.5rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007B8A;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f6b;
+}
+
+/* Botón flotante de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1DA851;
+}
+
+.whatsapp-button .icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+
+nav {
+    background-color: #0f0f0f;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    padding: 0.5em 0;
+    box-shadow: 0 2px 5px rgba(248, 248, 248, 0.2);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1em;
+    position: relative;
+
+}
+.nav-left {
+  flex: 1;
+ }
+
+.logo{
+    height: 50px;
+    
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 0;
+    margin: 0%;
+}
+
+nav a {
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:  1.1em;
+    
+    
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f67e22;
+}
+.menu a.activo {
+  color: #f5b041; 
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  position: relative;
+  padding-bottom: 10px;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ca6f1e;
+  transition: width 0.3s ease;
+}
+menu a:hover::after {
+  width: 100%;
+}
+
+
+.menu a.activo {
+  color: #6e2c00;
+  font-weight: 900;
+}
+
+.menu a.activo::after {
+  width: 100%;
 }
